@@ -17,7 +17,7 @@ const customerInfo =  {
     email: 'abebe@bikila.com',
     first_name: 'Abebe',
     last_name: 'Bikila',
-    // tx_ref: 'tx-x12345',
+    // tx_ref: 'tx-x12345', // if autoRef is set in the options we dont't need to provide reference, instead it will generate it for us
     callback_url: 'https://chapa.co', // your callback URL
     customization: {
         title: 'I love e-commerce',
